@@ -8,6 +8,8 @@ TagManager:
   - coin
   - gach
   - nam
+  - trap
+  - cheri
   layers:
   - Default
   - TransparentFX
