@@ -16,6 +16,8 @@ public class Player6 : MonoBehaviour
 
     public GameObject wingame;
 
+    public GameObject weapon;
+
     float Horizontal;
 
     public float cheri = 0;
@@ -30,10 +32,14 @@ public class Player6 : MonoBehaviour
 
     bool isfashingRight = false;
 
+    public GameObject effects ;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+        Instantiate(effects,gameObject.transform);
 
     }
 
